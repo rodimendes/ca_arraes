@@ -6,4 +6,3 @@ runner_args = []
 patterns = ["*.py"]
 ignore_patterns = []
 
-[tool.ruff]

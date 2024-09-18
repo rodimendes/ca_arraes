@@ -3996,11 +3996,11 @@ body.is-mobile #main > header {
 
 #footer .copyright {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 0.8em;
+  font-size: 0.6em;
   letter-spacing: 0.225em;
   list-style: none;
   padding: 0;
-  text-transform: uppercase;
+  /* text-transform: up2percase; */
 }
 
 #footer .copyright li {
