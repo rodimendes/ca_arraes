@@ -302,6 +302,12 @@ h3 {
   line-height: 1.75em;
 }
 
+h3.first-stripe {
+  border-bottom: solid 2px #fff;
+  text-transform: none;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 736px) {
   h3 {
     font-size: 1em;
@@ -312,6 +318,11 @@ h3 {
 h4 {
   font-size: 1em;
   line-height: 1.5em;
+}
+
+h4.first-stripe {
+  text-transform: none;
+  font-weight: 600;
 }
 
 h5 {
@@ -1879,7 +1890,7 @@ header.major h3,
 header.major h4,
 header.major h5,
 header.major h6 {
-  border-bottom: solid 2px #fff;
+  /* border-bottom: solid 2px #fff; */
   display: inline-block;
   padding-bottom: 1em;
   position: relative;
