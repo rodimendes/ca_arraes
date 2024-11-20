@@ -2663,7 +2663,7 @@ button:disabled,
 }
 
 .features li {
-  padding: 1em 4em 1em 6em;
+  padding: 1em 5em 0em 6em;
   display: block;
   position: relative;
   text-align: left;
@@ -2671,7 +2671,7 @@ button:disabled,
 }
 
 .features li:nth-child(1) {
-  background-color: rgba(0, 0, 0, 0.035);
+  background-color: rgba(0, 0, 0, 0.125);
 }
 
 .features li:nth-child(2) {
@@ -2679,11 +2679,11 @@ button:disabled,
 }
 
 .features li:nth-child(3) {
-  background-color: rgba(0, 0, 0, 0.105);
+  background-color: rgba(0, 0, 0, 0.07);
 }
 
 .features li:nth-child(4) {
-  background-color: rgba(0, 0, 0, 0.14);
+  background-color: rgba(0, 0, 0, 0.125);
 }
 
 .features li:nth-child(5) {
@@ -2715,7 +2715,7 @@ button:disabled,
   color: #00ffcc;
   position: absolute;
   left: 1.75em;
-  top: 1.75em;
+  top: 1.2em;
   font-size: 1.5em;
 }
 
