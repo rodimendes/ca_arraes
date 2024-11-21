@@ -261,6 +261,14 @@ p {
   margin: 0 0 2em 0;
 }
 
+p span {
+  color: #21b2a6;
+}
+
+p.stripe2 {
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
@@ -288,6 +296,11 @@ h6 a {
 h2 {
   font-size: 1.35em;
   line-height: 1.75em;
+}
+
+h2.stripe2 {
+  color: #21b2a6;
+  text-align: center;
 }
 
 @media screen and (max-width: 736px) {
