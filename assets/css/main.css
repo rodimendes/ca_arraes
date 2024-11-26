@@ -2630,6 +2630,23 @@ button.primary:active,
   background-color: #eb341c !important;
 }
 
+button.secondary,
+.button.secondary {
+  background-color: #31e174;
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+
+button.secondary:hover,
+.button.secondary:hover {
+  background-color: #51de87 !important;
+}
+
+button.secondary:active,
+.button.secondary:active {
+  background-color: #0de660 !important;
+}
+
 input[type="submit"].disabled,
 input[type="submit"]:disabled,
 input[type="reset"].disabled,
