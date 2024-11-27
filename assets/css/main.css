@@ -2451,6 +2451,28 @@ ul.icons.major li {
   }
 }
 
+ul.checkbox {
+  list-style-type: none; /* Remove os marcadores */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0 auto; /* Centraliza horizontalmente a lista inteira */
+  text-align: center; /* Centraliza o conteúdo da lista */
+}
+
+/* Estiliza os itens da lista */
+ul.checkbox li {
+  display: flex; /* Torna os itens flexíveis */
+  justify-content: center; /* Centraliza os itens horizontalmente dentro do <li> */
+  align-items: center; /* Alinha verticalmente */
+  margin-bottom: 10px; /* Espaçamento entre os itens */
+}
+
+/* Ajusta o tamanho das imagens */
+ul.checkbox img {
+  width: 20px; /* Define a largura da imagem */
+  height: 20px; /* Define a altura da imagem */
+  margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
 /* Table */
 
 .table-wrapper {
@@ -2635,6 +2657,7 @@ button.secondary,
   background-color: #31e174;
   box-shadow: none !important;
   color: #ffffff !important;
+  border-radius: 25px;
 }
 
 button.secondary:hover,
