@@ -2576,6 +2576,7 @@ button,
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  width: 30em;
 }
 
 input[type="submit"]:hover,
@@ -2634,6 +2635,7 @@ button.primary,
   background-color: #ed4933;
   box-shadow: none !important;
   color: #ffffff !important;
+  border-radius: 25px;
 }
 
 input[type="submit"].primary:hover,
