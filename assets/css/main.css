@@ -315,13 +315,6 @@ h3 {
   line-height: 1.75em;
 }
 
-h3.first-stripe {
-  border-bottom: solid 2px #fff;
-  text-transform: none;
-  font-weight: 600;
-  padding: 0;
-}
-
 @media screen and (max-width: 736px) {
   h3 {
     font-size: 1em;
@@ -2451,28 +2444,6 @@ ul.icons.major li {
   }
 }
 
-ul.checkbox {
-  list-style-type: none; /* Remove os marcadores */
-  padding: 0; /* Remove o padding padrão */
-  margin: 0 auto; /* Centraliza horizontalmente a lista inteira */
-  text-align: center; /* Centraliza o conteúdo da lista */
-}
-
-/* Estiliza os itens da lista */
-ul.checkbox li {
-  display: flex; /* Torna os itens flexíveis */
-  justify-content: center; /* Centraliza os itens horizontalmente dentro do <li> */
-  align-items: center; /* Alinha verticalmente */
-  margin-bottom: 10px; /* Espaçamento entre os itens */
-}
-
-/* Ajusta o tamanho das imagens */
-ul.checkbox img {
-  width: 20px; /* Define a largura da imagem */
-  height: 20px; /* Define a altura da imagem */
-  margin-right: 10px; /* Espaçamento entre a imagem e o texto */
-}
-
 /* Table */
 
 .table-wrapper {
@@ -4040,33 +4011,6 @@ body.is-preload #banner:after {
 
 body.is-mobile #main > header {
   background-attachment: scroll;
-}
-
-/* Stripe 2 */
-
-.seta-container {
-  position: relative;
-  left: 19em;
-  bottom: 1em;
-}
-
-.seta {
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 15px solid #21b2a6; /* Cor da seta */
-  animation: mover 1s infinite ease-in-out;
-}
-
-@keyframes mover {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px); /* A seta se move para baixo */
-  }
 }
 
 /* Footer */
