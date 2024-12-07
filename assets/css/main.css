@@ -269,6 +269,16 @@ p.stripe2 {
   text-align: center;
 }
 
+p.page3 {
+  margin: 0;
+}
+
+li.center-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1,
 h2,
 h3,
