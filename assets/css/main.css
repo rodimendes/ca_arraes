@@ -285,7 +285,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: #dbd5c6;
   font-weight: 800;
   letter-spacing: 0.225em;
   line-height: 1em;
@@ -2205,15 +2205,15 @@ input[type="radio"] + label:before {
 }
 
 .icon.style1 {
-  color: #00ffcc;
+  color: #656a3f;
 }
 
 .icon.style2 {
-  color: #00f0ff;
+  color: #656a3f;
 }
 
 .icon.style3 {
-  color: #76ddff;
+  color: #656a3f;
 }
 
 /* Image */
@@ -2637,7 +2637,7 @@ button.primary:active,
 
 button.secondary,
 .button.secondary {
-  background-color: #31e174;
+  background-color: #91966c;
   box-shadow: none !important;
   color: #ffffff !important;
   border-radius: 25px;
@@ -2748,7 +2748,7 @@ button:disabled,
 
 .features li:before {
   display: block;
-  color: #00ffcc;
+  color: #91966c;
   position: absolute;
   left: 1.75em;
   top: 1.2em;
@@ -2947,7 +2947,7 @@ button:disabled,
 }
 
 .wrapper.style1 {
-  background-color: #21b2a6;
+  background-color: #656a3f;
   color: #c8ece9;
 }
 
