@@ -197,7 +197,7 @@ input,
 select,
 textarea {
   color: #fff;
-  font-family: "Open Sans", Helvetica, sans-serif;
+  font-family: Optima, Helvetica, sans-serif;
   font-size: 15pt;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -311,6 +311,10 @@ h2 {
 h2.stripe2 {
   color: #21b2a6;
   text-align: center;
+}
+
+h2.section-two {
+  font-weight: 300;
 }
 
 @media screen and (max-width: 736px) {
@@ -2262,6 +2266,12 @@ input[type="radio"] + label:before {
   width: 100%;
 }
 
+.image.section-two-first img {
+  max-height: fit-content;
+  max-width: 80%;
+  height: auto;
+  width: auto;
+}
 /* List */
 
 ol {
@@ -2947,7 +2957,7 @@ button:disabled,
 }
 
 .wrapper.style1 {
-  background-color: #656a3f;
+  background-color: #213326;
   color: #c8ece9;
 }
 
