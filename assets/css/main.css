@@ -2268,7 +2268,7 @@ input[type="radio"] + label:before {
 
 .image.section-two-first img {
   max-height: fit-content;
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   width: auto;
 }
@@ -3895,6 +3895,26 @@ body.is-preload #banner .more {
 
 body.is-preload #banner:after {
   opacity: 1;
+}
+
+/* Summary */
+
+#summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#summary ol {
+  margin: 0 0 1em 0;
+}
+
+#summary h2 {
+  margin: 0 0 1em 0;
+}
+
+.content-summary {
+  margin: 2em;
 }
 
 /* CTA */
