@@ -315,6 +315,7 @@ h2.stripe2 {
 
 h2.section-two {
   font-weight: 300;
+  color: #91966c;
 }
 
 @media screen and (max-width: 736px) {
@@ -3904,10 +3905,13 @@ body.is-preload #banner:after {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 #summary ol {
   margin: 0 0 1em 0;
+  list-style-position: inside;
+  padding: 0;
 }
 
 #summary h2 {
