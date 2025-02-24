@@ -257,10 +257,6 @@ i {
   font-style: italic;
 }
 
-p {
-  margin: 0 0 2em 0;
-}
-
 .green {
   color: #21b2a6;
 }
@@ -2310,6 +2306,34 @@ ul.alt li:first-child {
   padding-top: 0;
 }
 
+div p {
+  margin: 0 0 1em 0;
+}
+
+.for-whom {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.for-whom li {
+  background: url("../../images/compass.png") no-repeat left center;
+  background-size: 20px 20px;
+  padding-left: 25px;
+  margin: 5px 0;
+}
+
+.you-receive {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.you-receive li {
+  background: url("../../images/check-mark.png") no-repeat left center;
+  background-size: 16px 16px;
+  padding-left: 25px;
+  margin: 5px 0;
+}
+
 dl {
   margin: 0 0 2em 0;
 }
@@ -3916,6 +3940,15 @@ body.is-preload #banner:after {
 
 #summary h2 {
   margin: 0 0 1em 0;
+}
+
+.summary h4 {
+  margin: 1em 0 0 0;
+  text-align: center;
+}
+
+.summary p {
+  text-align: center;
 }
 
 .content-summary {
