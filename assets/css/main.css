@@ -2742,6 +2742,10 @@ button:disabled,
   width: 50%;
 }
 
+.features li.centered {
+  text-align: center;
+}
+
 .features li:nth-child(1) {
   background-color: rgba(0, 0, 0, 0.125);
 }
