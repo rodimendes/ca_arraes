@@ -2312,7 +2312,7 @@ div p {
 
 .for-whom {
   list-style: none;
-  padding-left: 20px;
+  padding: 0;
 }
 
 .for-whom li {
@@ -2324,7 +2324,7 @@ div p {
 
 .you-receive {
   list-style: none;
-  padding-left: 20px;
+  padding: 0;
 }
 
 .you-receive li {
@@ -2742,10 +2742,6 @@ button:disabled,
   width: 50%;
 }
 
-.features li.centered {
-  text-align: center;
-}
-
 .features li:nth-child(1) {
   background-color: rgba(0, 0, 0, 0.125);
 }
@@ -2948,7 +2944,7 @@ button:disabled,
   .spotlight .content {
     padding: 4em 3em 2em 3em;
     max-width: none;
-    text-align: center;
+    text-align: left;
     width: 100%;
   }
 }
