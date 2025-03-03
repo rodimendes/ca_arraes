@@ -2269,6 +2269,12 @@ input[type="radio"] + label:before {
   height: auto;
   width: auto;
 }
+
+.image.quemsoueu img {
+  max-width: 80%;
+  height: auto;
+}
+
 /* List */
 
 ol {
@@ -2363,6 +2369,7 @@ ul.actions.special {
   justify-content: center;
   width: 100%;
   margin-left: 0;
+  margin: 0;
 }
 
 ul.actions.special li:first-child {
@@ -2375,6 +2382,11 @@ ul.actions.stacked {
   -ms-flex-direction: column;
   flex-direction: column;
   margin-left: 0;
+}
+
+ul.price {
+  background-color: #4a4d89;
+  border-radius: 20px;
 }
 
 ul.actions.stacked li {
