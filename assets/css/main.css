@@ -2270,11 +2270,6 @@ input[type="radio"] + label:before {
   width: auto;
 }
 
-.image.quemsoueu img {
-  max-width: 80%;
-  height: auto;
-}
-
 /* List */
 
 ol {
@@ -2322,10 +2317,20 @@ div p {
 }
 
 .for-whom li {
-  background: url("../../images/compass.png") no-repeat left center;
-  background-size: 20px 20px;
+  position: relative;
   padding-left: 25px;
   margin: 5px 0;
+}
+
+.for-whom li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4em;
+  width: 16px;
+  height: 16px;
+  background: url("../../images/compass.png") no-repeat;
+  background-size: contain;
 }
 
 .you-receive {
@@ -2334,10 +2339,20 @@ div p {
 }
 
 .you-receive li {
-  background: url("../../images/check-mark.png") no-repeat left center;
-  background-size: 16px 16px;
+  position: relative;
   padding-left: 25px;
   margin: 5px 0;
+}
+
+.you-receive li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4em; /* Adjust this value (e.g., 0.3em or 3px) */
+  width: 16px;
+  height: 16px;
+  background: url("../../images/check-mark.png") no-repeat;
+  background-size: contain;
 }
 
 dl {
