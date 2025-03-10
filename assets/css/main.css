@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -312,6 +313,10 @@ h2.stripe2 {
 h2.section-two {
   font-weight: 300;
   color: #91966c;
+}
+
+h2.font-title {
+  font-family: Merienda;
 }
 
 @media screen and (max-width: 736px) {
@@ -3222,7 +3227,7 @@ button:disabled,
 }
 
 .wrapper.style3 header.major p {
-  color: #d3d4e4;
+  color: #ffffff;
 }
 
 .wrapper.style3 label {
@@ -4121,7 +4126,7 @@ body.is-mobile #main > header {
 /* Footer */
 
 #footer {
-  padding: 6em 0 4em 0;
+  padding: 4em 0 2em 0;
   background-color: #1d242a;
   text-align: center;
 }
