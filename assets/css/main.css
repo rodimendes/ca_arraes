@@ -3921,6 +3921,12 @@ body.is-menu-visible #menu {
     font-size: 1.25em;
   }
 
+  #banner p {
+    letter-spacing: 0.225em;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+  }
+
   #banner br {
     display: none;
   }
