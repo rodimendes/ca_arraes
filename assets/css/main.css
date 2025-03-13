@@ -2902,7 +2902,7 @@ button:disabled,
 }
 
 .spotlight .content {
-  padding: 2em 4em 0.1em 4em;
+  padding: 1em 4em 1em 4em;
   -moz-order: 2;
   -webkit-order: 2;
   -ms-order: 2;
@@ -3988,13 +3988,14 @@ body.is-preload #banner:after {
   margin: 0 0 1em 0;
 }
 
-.summary {
-  background-color: #abb08b;
-}
-
 .summary h4 {
   margin: 1em 0 0 0;
   text-align: center;
+}
+
+.summary h4 span {
+  background-color: #5c5c5c;
+  padding: 0.3rem;
 }
 
 .summary p {
