@@ -319,6 +319,10 @@ h2.font-title {
   font-family: Merienda;
 }
 
+.highlighted-text {
+  color: #0de660;
+}
+
 @media screen and (max-width: 736px) {
   h2 {
     font-size: 1.1em;
@@ -327,7 +331,7 @@ h2.font-title {
 }
 
 h3 {
-  font-size: 1.15em;
+  font-size: 1em;
   line-height: 1.75em;
 }
 
@@ -2176,6 +2180,10 @@ input[type="radio"] + label:before {
   font-weight: 900;
 }
 
+.icon.despertar:before {
+  color: #0de660;
+}
+
 .icon.brands:before {
   font-family: "Font Awesome 5 Brands";
 }
@@ -2410,7 +2418,7 @@ ul.price {
 }
 
 ul.actions.stacked li {
-  padding: 1em 0 0 0;
+  padding: 0;
 }
 
 ul.actions.stacked li:first-child {
@@ -2705,7 +2713,7 @@ button.primary:active,
 
 button.secondary,
 .button.secondary {
-  background-color: #91966c;
+  background-color: #51de87;
   box-shadow: none !important;
   color: #ffffff !important;
   border-radius: 25px;
@@ -2713,7 +2721,7 @@ button.secondary,
 
 button.secondary:hover,
 .button.secondary:hover {
-  background-color: #51de87 !important;
+  background-color: #91966c !important;
 }
 
 button.secondary:active,
@@ -3978,6 +3986,10 @@ body.is-preload #banner:after {
 
 #summary h2 {
   margin: 0 0 1em 0;
+}
+
+.summary {
+  background-color: #abb08b;
 }
 
 .summary h4 {
