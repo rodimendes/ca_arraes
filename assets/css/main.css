@@ -2413,7 +2413,8 @@ ul.actions.stacked {
 }
 
 ul.price {
-  background-color: #4a4d89;
+  padding: 1em 0;
+  background-color: #3d3f6f;
   border-radius: 20px;
 }
 
@@ -2633,7 +2634,7 @@ button,
   overflow: hidden;
   text-overflow: ellipsis;
   width: 30em;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
 }
 
 input[type="submit"]:hover,
